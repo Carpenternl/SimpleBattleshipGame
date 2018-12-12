@@ -1,0 +1,15 @@
+﻿<Window x:Name="GameStartWindow" x:Class="BattleShipGame.GameSetupWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BattleShipGame"
+        mc:Ignorable="d"
+        Title="BattleShip" MinWidth="200" Width="200" SizeToContent="Height" d:DesignWidth="200">
+    <StackPanel Margin="5">
+        <Label Content="BattleShip" Margin="5"/>
+        <TextBox x:Name="P1" Text="Player1" Margin="5" TextChanged="PlayerNameChanged"/>
+        <TextBox x:Name="P2" Text="Player2" Margin="5" TextChanged="PlayerNameChanged"/>
+        <Button x:Name="GameStartbutton" Content="Start Game" Margin="5" Click="GameStartbutton_Click"/>
+    </StackPanel>
+</Window>
