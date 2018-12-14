@@ -18,13 +18,8 @@
             <StackPanel x:Name="ShipListView" Grid.Column="0">
             </StackPanel>
         </StackPanel>
-        <Grid Background="Transparent" x:Name="Board" ShowGridLines="True" Grid.Column="1">
-            <Grid.ColumnDefinitions>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                
-            </Grid.RowDefinitions>
-        </Grid>
+        <local:GameBoard Background="Transparent" x:Name="Board" ShowGridLines="True" Grid.Column="1">
+        </local:GameBoard>
 
     </Grid>
 </Page>

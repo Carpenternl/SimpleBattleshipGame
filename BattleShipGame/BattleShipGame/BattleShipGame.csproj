@@ -58,6 +58,9 @@
     <Compile Include="BoardView.xaml.cs">
       <DependentUpon>BoardView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GameBoard.xaml.cs">
+      <DependentUpon>GameBoard.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Player.cs" />
     <Compile Include="SetupboardWindow.xaml.cs">
       <DependentUpon>SetupboardWindow.xaml</DependentUpon>
@@ -69,6 +72,10 @@
       <DependentUpon>ShipItem.xaml</DependentUpon>
     </Compile>
     <Page Include="BoardView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GameBoard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

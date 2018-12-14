@@ -36,7 +36,7 @@ namespace BattleShipGame
             InitializeComponent();
         }
 
-        internal static IEnumerable<Ship> CreateShips(int amount, int length)
+        internal static IEnumerable<Ship> CreateShips(int length, int amount)
         {
             List<Ship> Result = new List<Ship>();
             for (int i = 0; i < amount; i++)

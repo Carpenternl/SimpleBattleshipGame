@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:BattleShipGame"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
+    <Grid Background="#FFDB3F3F">
             
     </Grid>
 </UserControl>
